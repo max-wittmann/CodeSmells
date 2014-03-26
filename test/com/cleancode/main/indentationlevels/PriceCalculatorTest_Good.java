@@ -1,5 +1,6 @@
 package com.cleancode.main.indentationlevels;
 
+import com.cleancode.main.indentationlevels.implementations.PriceCalculator;
 import com.cleancode.main.indentationlevels.implementations.PriceCalculator_Good;
 import org.junit.Before;
 import org.junit.Test;
@@ -37,7 +38,7 @@ public class PriceCalculatorTest_Good {
     public void shouldCalculate_NoGST_NoDiscount_1_SingleBottle_Price() {
         List<OrderItem> cart = new ArrayList<OrderItem>();
         cart.add(new OrderItem("prodA", 1));
-        ShippingDetails shippingDetails = new ShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
+        ShippingDetails shippingDetails = ShippingDetails.createForTotalShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
         Order order = new Order(shippingDetails, false, true, cart);
         assertThat(indentationLevels.calculateTotalPrice(order), is(48));
     }
@@ -46,7 +47,7 @@ public class PriceCalculatorTest_Good {
     public void shouldCalculate_NoGST_NoDiscount_2_SingleBottles_Price() {
         List<OrderItem> cart = new ArrayList<OrderItem>();
         cart.add(new OrderItem("prodA", 2));
-        ShippingDetails shippingDetails = new ShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
+        ShippingDetails shippingDetails = ShippingDetails.createForTotalShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
         Order order = new Order(shippingDetails, false, true, cart);
         assertThat(indentationLevels.calculateTotalPrice(order), is(51));
     }
@@ -55,7 +56,7 @@ public class PriceCalculatorTest_Good {
     public void shouldChargeCorrectForNoGSTNoDiscounts_6_SixBottlePrice() {
         List<OrderItem> cart = new ArrayList<OrderItem>();
         cart.add(new OrderItem("prodA", 6));
-        ShippingDetails shippingDetails = new ShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
+        ShippingDetails shippingDetails = ShippingDetails.createForTotalShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
         Order order = new Order(shippingDetails, false, true, cart);
         assertThat(indentationLevels.calculateTotalPrice(order), is(57));
     }
@@ -64,7 +65,7 @@ public class PriceCalculatorTest_Good {
     public void shouldChargeCorrectForNoGSTNoDiscounts_7_SixBottlePrice() {
         List<OrderItem> cart = new ArrayList<OrderItem>();
         cart.add(new OrderItem("prodA", 7));
-        ShippingDetails shippingDetails = new ShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
+        ShippingDetails shippingDetails = ShippingDetails.createForTotalShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
         Order order = new Order(shippingDetails, false, true, cart);
         assertThat(indentationLevels.calculateTotalPrice(order), is(59));
     }
@@ -73,7 +74,7 @@ public class PriceCalculatorTest_Good {
     public void shouldChargeCorrectForNoGST_EmployeeDiscount_6_SixBottlePrice() {
         List<OrderItem> cart = new ArrayList<OrderItem>();
         cart.add(new OrderItem("prodA", 6));
-        ShippingDetails shippingDetails = new ShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
+        ShippingDetails shippingDetails = ShippingDetails.createForTotalShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
         Order order = new Order(shippingDetails, true, true, cart);
         assertThat(indentationLevels.calculateTotalPrice(order), is(54));
     }
@@ -82,7 +83,7 @@ public class PriceCalculatorTest_Good {
     public void shouldChargeCorrectForNoGST_GSTAdded_6_SixBottlePrice() {
         List<OrderItem> cart = new ArrayList<OrderItem>();
         cart.add(new OrderItem("prodA", 6));
-        ShippingDetails shippingDetails = new ShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
+        ShippingDetails shippingDetails = ShippingDetails.createForTotalShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.NORMAL);
         Order order = new Order(shippingDetails, false, false, cart);
         assertThat(indentationLevels.calculateTotalPrice(order), is(58));
     }
@@ -91,8 +92,33 @@ public class PriceCalculatorTest_Good {
     public void shouldChargeCorrectForNoGSTNoDiscounts_6_SixBottlePrice_ExpressDelivery() {
         List<OrderItem> cart = new ArrayList<OrderItem>();
         cart.add(new OrderItem("prodA", 6));
-        ShippingDetails shippingDetails = new ShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.EXPRESS);
+        ShippingDetails shippingDetails = ShippingDetails.createForTotalShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.EXPRESS);
         Order order = new Order(shippingDetails, false, true, cart);
         assertThat(indentationLevels.calculateTotalPrice(order), is(87));
     }
+
+    //12
+    //Price Per Item (Normal / Express)
+    //Metro: 30% | 50%  + 15 / 30
+    //Urban: 45% | 65% + 20 / 35
+    //Rural: 65% | 85% + 40 / 60
+    @Test
+    public void shouldChargeCorrectForNoGSTNoDiscounts_6_PerSix_DeliveryPerItem_UrbanExpress() {
+        List<OrderItem> cart = new ArrayList<OrderItem>();
+        cart.add(new OrderItem("prodA", 6));
+        ShippingDetails shippingDetails = ShippingDetails.createPerItemShippingDetails(ShippingDetails.Area.URBAN, ShippingDetails.Type.EXPRESS);
+        Order order = new Order(shippingDetails, false, true, cart);
+        assertThat(indentationLevels.calculateTotalPrice(order), is(54));
+    }
+
+    @Test
+    public void shouldChargeCorrectForNoGSTNoDiscounts_6_PerSix_DeliveryPerItem_RuralNormal() {
+        List<OrderItem> cart = new ArrayList<OrderItem>();
+        cart.add(new OrderItem("prodA", 6));
+        ShippingDetails shippingDetails = ShippingDetails.createPerItemShippingDetails(ShippingDetails.Area.RURAL, ShippingDetails.Type.NORMAL);
+        Order order = new Order(shippingDetails, false, true, cart);
+        assertThat(indentationLevels.calculateTotalPrice(order), is(59));
+    }
+
+
 }

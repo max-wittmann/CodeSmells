@@ -6,10 +6,20 @@ package com.cleancode.main.indentationlevels;
 public class ShippingDetails {
     public final Area area;
     public final Type type;
+    public final Per per;
 
-    public ShippingDetails(Area area, Type type) {
+    private ShippingDetails(Per per, Area area, Type type) {
         this.area = area;
         this.type = type;
+        this.per = per;
+    }
+
+    public static ShippingDetails createForTotalShippingDetails(Area area, Type type) {
+        return new ShippingDetails(Per.TOTAL, area, type);
+    }
+
+    public static ShippingDetails createPerItemShippingDetails(Area area, Type type) {
+        return new ShippingDetails(Per.ITEM, area, type);
     }
 
     public static enum Area {
@@ -18,5 +28,9 @@ public class ShippingDetails {
 
     public static enum Type {
         NORMAL, EXPRESS
+    }
+
+    public static enum Per {
+        TOTAL, ITEM
     }
 }

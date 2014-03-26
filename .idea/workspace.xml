@@ -60,6 +60,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Bad.java" line="153" class="com.cleancode.main.indentationlevels.implementations.PriceCalculator_Bad" package="com.cleancode.main.indentationlevels.implementations">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -69,37 +86,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PriceCalculatorTest_Good.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Good.java">
+      <file leaf-file-name="ShippingPriceCalculator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ShippingPriceCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="-4.090909" vertical-offset="15" max-vertical-offset="1560">
+            <state line="8" column="78" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1152#1163#0" expanded="true" />
-                <element signature="e#1611#1622#0" expanded="true" />
-                <element signature="e#2071#2082#0" expanded="true" />
-                <element signature="e#2531#2542#0" expanded="true" />
-                <element signature="e#2997#3008#0" expanded="true" />
-                <element signature="e#3454#3465#0" expanded="true" />
-                <element signature="e#3931#3942#0" expanded="true" />
+                <element signature="e#365#424#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriceCalculatorTest_Bad.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Bad.java">
+      <file leaf-file-name="PriceCalculator_Good.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Good.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="46" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
+            <state line="29" column="66" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1170">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingDetails.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ShippingDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="57" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriceCalculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/PriceCalculator.java">
+      <file leaf-file-name="ProductPrices.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ProductPrices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="48" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="13" column="55" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/CollectionUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="98" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/OrderItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -108,25 +157,7 @@
       <file leaf-file-name="PriceCalculator_Bad.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Bad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="163" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.034642033" vertical-offset="390" max-vertical-offset="1230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoSuchProductException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/NoSuchProductException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PriceCalculator_Good.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Good.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="43" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="1110">
+            <state line="76" column="85" selection-start="4051" selection-end="4051" vertical-scroll-proportion="1.1821193" vertical-offset="426" max-vertical-offset="2460">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,39 +165,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Products.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Products.java">
+      <file leaf-file-name="PriceCalculator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShippingPrice.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/ShippingPrice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShippingPriceCalculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/ShippingPriceCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="42" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1890">
-              <folding>
-                <element signature="e#914#929#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="8" column="48" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -197,22 +199,25 @@
         <option value="$PROJECT_DIR$/src/com/cleancode/main/GooderNaming.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Discounts.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/OrderItem.java" />
-        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ShippingDetails.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ProductPrices.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Order.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/GoodIndentationLevels.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/PriceCalculator_Bad.java" />
         <option value="$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/GoodIndentationLevelsTest.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/PriceCalculator.java" />
-        <option value="$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Good.java" />
-        <option value="$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Bad.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/NoSuchProductException.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/PriceCalculator_Good.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/ShippingPrice.java" />
-        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/ShippingPriceCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Products.java" />
-        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Good.java" />
+        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ShippingDetails.java" />
+        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/ShippingPriceCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/CollectionUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ShippingPrice.java" />
+        <option value="$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Good.java" />
+        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ShippingPriceCalculator.java" />
+        <option value="$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Bad.java" />
         <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Bad.java" />
+        <option value="$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Good.java" />
       </list>
     </option>
   </component>
@@ -375,6 +380,10 @@
     <property name="SearchEverywhereHistory" value="" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -391,8 +400,11 @@
       <recent name="com.cleancode.main.indentationlevels" />
       <recent name="com.cleancode.main.GoodIndentationLevels" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cleancode.main.indentationlevels" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PriceCalculatorTest_Bad.shouldChargeCorrectForNoGSTNoDiscounts_6_PerSix_DeliveryPerItem_UrbanExpress">
     <configuration default="false" name="GooderNaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -469,7 +481,47 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PriceCalculatorTest_Bad.shouldChargeCorrectForNoGSTNoDiscounts_6_PerSix_DeliveryPerItem_UrbanExpress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cleancode.main.indentationlevels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodeSmellsAndCleanCode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cleancode.main.indentationlevels" />
+      <option name="MAIN_CLASS_NAME" value="com.cleancode.main.indentationlevels.PriceCalculatorTest_Bad" />
+      <option name="METHOD_NAME" value="shouldChargeCorrectForNoGSTNoDiscounts_6_PerSix_DeliveryPerItem_UrbanExpress" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -714,16 +766,18 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.GooderNaming" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PriceCalculatorTest_Good" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.PriceCalculatorTest_Bad" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PriceCalculatorTest_Bad.shouldChargeCorrectForNoGSTNoDiscounts_6_PerSix_DeliveryPerItem_UrbanExpress" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PriceCalculatorTest_Good" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PriceCalculatorTest_Bad.shouldChargeCorrectForNoGSTNoDiscounts_6_PerSix_DeliveryPerItem_UrbanExpress" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.PriceCalculatorTest_Bad" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GooderNaming" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PriceCalculatorTest_Good" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GooderNaming" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -738,12 +792,12 @@
       <created>1395721225913</created>
       <updated>1395721225913</updated>
       <workItem from="1395721228549" duration="370000" />
-      <workItem from="1395721601610" duration="14802000" />
+      <workItem from="1395721601610" duration="27932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15172000" />
+    <option name="totallyTimeSpent" value="28302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="808" extended-state="0" />
@@ -751,17 +805,17 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29971182" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -771,8 +825,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22460657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28386167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28386167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -820,23 +874,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Discounts.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/naming/GooderNaming.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="42" column="52" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1515">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/OrderItem.java">
+    <entry file="file://$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Good.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="103" column="0" selection-start="4593" selection-end="5603" vertical-scroll-proportion="0.0" vertical-offset="1382" max-vertical-offset="1935">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1229#1240#0" expanded="true" />
+            <element signature="e#1714#1725#0" expanded="true" />
+            <element signature="e#2200#2211#0" expanded="true" />
+            <element signature="e#2686#2697#0" expanded="true" />
+            <element signature="e#3178#3189#0" expanded="true" />
+            <element signature="e#3661#3672#0" expanded="true" />
+            <element signature="e#4164#4175#0" expanded="true" />
+            <element signature="e#4821#4832#0" expanded="true" />
+            <element signature="e#5327#5338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Bad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="32" selection-start="4560" selection-end="4560" vertical-scroll-proportion="0.0" vertical-offset="1167" max-vertical-offset="1710">
+          <folding>
+            <element signature="e#4669#4680#0" expanded="true" />
+            <element signature="e#5324#5335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="240">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ShippingPriceCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="78" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#365#424#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/ShippingDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="59" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="29" column="57" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
@@ -848,6 +940,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
@@ -855,76 +954,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/naming/GooderNaming.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/CollectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="52" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1515">
+        <state line="11" column="98" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/PriceCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/NoSuchProductException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/ShippingPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/ShippingPriceCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1890">
-          <folding>
-            <element signature="e#914#929#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Bad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/cleancode/main/indentationlevels/PriceCalculatorTest_Good.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="-4.090909" vertical-offset="15" max-vertical-offset="1560">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1152#1163#0" expanded="true" />
-            <element signature="e#1611#1622#0" expanded="true" />
-            <element signature="e#2071#2082#0" expanded="true" />
-            <element signature="e#2531#2542#0" expanded="true" />
-            <element signature="e#2997#3008#0" expanded="true" />
-            <element signature="e#3454#3465#0" expanded="true" />
-            <element signature="e#3931#3942#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Good.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="1110">
+        <state line="29" column="66" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1170">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -933,11 +972,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cleancode/main/indentationlevels/implementations/PriceCalculator_Bad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="163" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.034642033" vertical-offset="390" max-vertical-offset="1230">
-          <folding />
+        <state line="76" column="85" selection-start="4051" selection-end="4051" vertical-scroll-proportion="1.1821193" vertical-offset="426" max-vertical-offset="2460">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>actionmailer (v3.2.16, ruby-2.0.0-p247) [gem]</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CodeSmellsAndCleanCode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

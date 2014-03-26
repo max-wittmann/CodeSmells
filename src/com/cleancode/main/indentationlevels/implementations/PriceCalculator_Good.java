@@ -3,8 +3,6 @@ package com.cleancode.main.indentationlevels.implementations;
 import com.cleancode.main.indentationlevels.*;
 
 import java.util.*;
-import static com.cleancode.main.indentationlevels.ShippingDetails.Area.*;
-import static com.cleancode.main.indentationlevels.ShippingDetails.Type.*;
 
 public class PriceCalculator_Good implements PriceCalculator {
 
@@ -14,7 +12,7 @@ public class PriceCalculator_Good implements PriceCalculator {
     Map<String, ProductPrices> priceForProduct = new HashMap<>();
     Map<String, Float> discountForProduct = new HashMap<>();
     Map<String, Integer> minPurchaseForDiscount = new HashMap<>();
-    ShippingPriceCalculator shippingPriceCalculator = ShippingPriceCalculator.createStandardShippingPriceCalculator();
+    ShippingPriceCalculator shippingPriceCalculator = new ShippingPriceCalculator();
 
     public PriceCalculator_Good(
             Map<String, ProductPrices> priceForProduct,
@@ -27,11 +25,17 @@ public class PriceCalculator_Good implements PriceCalculator {
     }
 
     public int calculateTotalPrice(Order order) {
-        int total = 0;
+        if(order == null)
+            return 0;
+
+        List <Integer> itemPrices = new ArrayList <>();
         for(OrderItem orderItem : order.cart) {
-            total += calculateTotalPriceForOrderItem(order, orderItem);
+            int itemCost = calculateTotalPriceForOrderItem(order, orderItem);
+            itemPrices.add(itemCost);
         }
-        total += shippingPriceCalculator.calculateShippingPrice(order.shippingDetails, total);
+        int total = CollectionUtil.calculateSum(itemPrices);
+
+        total += shippingPriceCalculator.calculateShippingPrice(order.shippingDetails, itemPrices);
         return total;
     }
 
